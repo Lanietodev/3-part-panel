@@ -18,10 +18,28 @@ p, a{
   display: inline-block;
   text-align: center;
   font-size: 15px;
+  width:100px;
   padding: 15px;
   margin-top: 10px;
   border-radius:50px;
-
+}
+.main .sedans a:hover{
+  border:2px solid hsl(0, 0%, 95%);
+  background:hsl(31, 77%, 52%);
+  color:hsl(0,0%,95%);
+  padding:13px;
+}
+.main .suvs a:hover{
+  border:2px solid hsl(0, 0%, 95%);
+  background:hsl(184, 100%, 22%);
+  color:hsl(0,0%,95%);
+  padding:13px;
+}
+.main .luxury a:hover{
+  border:2px solid hsl(0, 0%, 95%);
+  background:hsl(179, 100%, 13%);
+  color:hsl(0,0%,95%);
+  padding:13px;
 }
 .sedans a{
   color: hsl(31, 77%, 52%);
@@ -54,7 +72,7 @@ p{
   border-bottom-right-radius: 10px;
   padding: 50px;
 }
-@media screen and (min-width:750px){
+@media screen and (min-width:480px){
   .sedans{
     border-radius: 10px 0 0 10px;
   }
@@ -67,12 +85,12 @@ p{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    width: 80%;
+    width: 100%;
   }
   .main div{
-    width: 350px;
+    width: 200px;
   }
   .main p{
-  
+  margin-bottom:100px;
   }
 }
