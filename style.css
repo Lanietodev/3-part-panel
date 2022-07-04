@@ -6,6 +6,7 @@
 h1{
  color:hsl(0, 0%, 95%);
  font-weight: 700;
+ font-size:50px;
   font-family:"Big Shoulders Display" , Sans-Serif ;
 }
 p, a{
@@ -91,6 +92,6 @@ p{
     width: 200px;
   }
   .main p{
-  margin-bottom:100px;
+  margin-bottom:85px;
   }
 }
